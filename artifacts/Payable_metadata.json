@@ -7,35 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -52,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "Loop"
+			"payable.sol": "Payable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +58,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"loops.sol": {
-			"keccak256": "0xd43178f739bfdb9cf7bcd3e84b7978aa1884e06fe772d3b9630a1c7c5569a4b1",
-			"license": "MIT",
+		"payable.sol": {
+			"keccak256": "0xe32d221d40ceb3e7afdb14399a005294545650c73aeb59ded0f8e91d24565433",
 			"urls": [
-				"bzz-raw://b452475ed0cc3d227ba945f0f3985246b1ca3a1d913956f3261bd734a77a7469",
-				"dweb:/ipfs/QmdFK296C9dPnYwJHsL1BSJXR2EBd3FBtmm2wBaJXGJBdc"
+				"bzz-raw://c330beecc492c41fa8dbebc18f546986221008e2f029b75b7ed0ccae4ff2947f",
+				"dweb:/ipfs/QmRwcq2ijtnVPExvCL8RLtv5t4ULJYJoTELawssUrdeTVS"
 			]
 		}
 	},
