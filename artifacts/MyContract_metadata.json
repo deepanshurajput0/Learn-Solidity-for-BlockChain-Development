@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callExternalFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"scopes.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"scopes.sol": {
+			"keccak256": "0x55938d303b4a8b463f22c2ba14e348c8106da3da370a4acff06d396832a32d01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1ee908b577510964eb662c47de7c03ef467815f052216c5225adf8318042a46",
+				"dweb:/ipfs/QmYubT5qhwZG1AkwJcCa39daGp3u9dBTXADw1ffkvjkDw2"
+			]
+		}
+	},
+	"version": 1
+}

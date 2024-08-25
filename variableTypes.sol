@@ -7,15 +7,15 @@ contract varibales {
          int val2 = 6; // local variable 
          return  val2;
     }
-    // function global() public  view   returns (uint){
-    //       return  block.timestamp;
-    // }
-    // function global() public view    returns (address){
-    //       return  msg.sender;
-    // }
-    function global() public view    returns (uint){
-          return  msg.sender.balance;
+    function global1() public  view   returns (uint){
+          return  block.timestamp;
     }
+    function global2() public view    returns (address){
+          return  msg.sender;
+    }
+    // function global() public view    returns (uint){
+    //       return  msg.sender.balance;
+    // }
     // function global() public view  returns (uint){
     //       return  msg.value;  //returns amount which is sended 
     // }
