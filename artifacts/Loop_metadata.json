@@ -6,34 +6,44 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "transfer",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
+				"name": "trans",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "Loop"
+			"events.sol": "Loop"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +76,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"loops.sol": {
-			"keccak256": "0xd43178f739bfdb9cf7bcd3e84b7978aa1884e06fe772d3b9630a1c7c5569a4b1",
-			"license": "MIT",
+		"events.sol": {
+			"keccak256": "0x4a462410eac3aceee2ea4fb4c2c8a5592b5e1d95e6253cd4d2c155a03e6dafe4",
 			"urls": [
-				"bzz-raw://b452475ed0cc3d227ba945f0f3985246b1ca3a1d913956f3261bd734a77a7469",
-				"dweb:/ipfs/QmdFK296C9dPnYwJHsL1BSJXR2EBd3FBtmm2wBaJXGJBdc"
+				"bzz-raw://07f8cc3ad666483e599081f9226ed0528ce663d7cc3123648cdd14ec28a63171",
+				"dweb:/ipfs/QmPXZ1Cosh12qR2YrxteJfFZzxYunDvptaQFv6qw5kvP1e"
 			]
 		}
 	},
