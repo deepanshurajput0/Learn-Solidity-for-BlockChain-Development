@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"operators.sol": "operators"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"operators.sol": {
+			"keccak256": "0xb2b943f6d5832c1e1872f6ecc4ff02009b9b4114a9b65322999d4ee731397eb1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dbe1ed7b69fadc1fb56e4c74267abca831bda5bf1966fa1cdaa28592007e30c1",
+				"dweb:/ipfs/QmQx8nM3E3zjWn3R6SDtQKXp25JsH9TdwhYgmmWpLmPU7V"
+			]
+		}
+	},
+	"version": 1
+}
